@@ -49,7 +49,7 @@ if(isset($_SESSION['username']) && (isset($_SESSION['passUser']))){
             </div>
             <div class="camp">
                 <label for="">Digite sua senha*</label>
-                <input type="password" name="pass" onkeypress="$(this).mask('000000')" class="pao" required>
+                <input type="password" name="pass" class="pao" required>
             </div>
             <button type="submit" name="btnLog" class="btn-login btn btn-primary">Entrar</button>
         </form>
